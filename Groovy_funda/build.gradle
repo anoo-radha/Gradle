@@ -16,6 +16,13 @@ this script, just ask Gradle to run the `groovy` task using
 
     $ gradle groovy
 
+gradle command works on build.gradle file. If we shd run another .gradle file,
+Run the console command:
+    $ gradle -b solution.gradle <task_name>
+
+Also we can run in quiet mode, no diagnostic messages, only the messages we have given in println
+    $ gradle -q <task_name>
+
 NOTE: When gradle daemon starts for the first time, it will take some time
 but starting a Gradle Daemon for subsequent builds will be faster.
 When Android Studio is started, gradle daemon is started and keeps running in the
