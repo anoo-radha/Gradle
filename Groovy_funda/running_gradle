@@ -1,0 +1,11 @@
+To run a task in build.gradle file
+    $ gradle task-name
+
+To run task from another .gradle file
+    $ gradle -b solution.gradle tasks
+
+To run on quiet mode, so the diagnostic output wont be displayed
+    $ gradle -q task-name
+
+See all tasks
+    --all
