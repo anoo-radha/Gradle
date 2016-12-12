@@ -1,6 +1,5 @@
 /*
-
-Now that we've configured our repositories, we can define dependencies on
+we can define dependencies on
 artifacts contained in those repositories. Dependencies that are resolved from
 repositories are referred to as 'external module dependencies'. Dependencies
 are assigned to 'configurations'. We'll talk more about configuration in
